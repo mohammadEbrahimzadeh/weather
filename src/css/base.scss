@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+.containerBody {
+  min-height: 100vh;
+  height: 100%;
+  background: rgb(0, 46, 255);
+  background: linear-gradient(
+    18deg,
+    rgba(0, 46, 255, 1) 18%,
+    rgba(255, 255, 255, 1) 99%
+  );
+  .containerMain {
+    background-color: rgba(11, 6, 82, 0.863);
+    border-radius: 15px;
+
+    .inputSearch {
+      color: black;
+      outline: none;
+    }
+  }
+}
+// .footerContainer {
+//   position: -webkit-sticky;
+//   position: sticky;
+//   top: 100%;
+// }
+.fontXm {
+  font-size: 0.8rem;
+}
+.fontSm {
+  font-size: 0.9rem;
+}
+.fontMd {
+  font-size: 1.3rem;
+}
+.fontXl {
+  font-size: 1.4rem;
+}
+@import "Module/_containerShowMore.scss";

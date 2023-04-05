@@ -1,0 +1,62 @@
+.containerShowMore {
+  cursor: pointer;
+}
+.containerMainRelative {
+  .containerMoreData {
+    border-radius: 15px;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    overflow: auto;
+    top: 0%;
+    width: 100%;
+    height: 0;
+  }
+
+  .closeContainerMoreData {
+    -webkit-animation-name: closeContainerMoreData;
+    animation-name: closeContainerMoreData;
+  }
+  .openContainerMoreData {
+    padding: 1rem;
+    -webkit-animation-name: openContainerMoreData;
+    animation-name: openContainerMoreData;
+  }
+}
+
+@-webkit-keyframes openContainerMoreData {
+  0% {
+    height: 0rem;
+  }
+  100% {
+    height: 80rem;
+  }
+}
+
+@keyframes openContainerMoreData {
+  0% {
+    height: 0rem;
+  }
+  100% {
+    height: 80rem;
+  }
+}
+
+@-webkit-keyframes closeContainerMoreData {
+  0% {
+    height: 80rem;
+  }
+  100% {
+    height: 0rem;
+  }
+}
+
+@keyframes closeContainerMoreData {
+  0% {
+    height: 80rem;
+  }
+  100% {
+    height: 0rem;
+  }
+}
